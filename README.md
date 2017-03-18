@@ -7,16 +7,16 @@ Using this library can make your live more easier. This library from https://git
 You can use by adding depedencies in your gradle build file `build.gradle`
 
 ```gradle
-	allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
-	}
+allprojects {
+    repositories {
+	maven { url 'https://jitpack.io' }
+    }
+}
 ```
 
 And in you `app/build.gradle`
 ```gradle
-	dependencies {
-		compile 'com.github.User:Repo:Tag'
-	}
-  ```
+dependencies {
+     compile 'com.github.User:Repo:Tag'
+}
+```
