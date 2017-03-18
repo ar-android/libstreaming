@@ -17,6 +17,6 @@ allprojects {
 And in you `app/build.gradle`
 ```gradle
 dependencies {
-     compile 'com.github.User:Repo:Tag'
+     compile 'com.github.ar-android:libstreaming:1.0.0'
 }
 ```
